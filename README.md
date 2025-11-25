@@ -58,12 +58,12 @@ Gerenciar o fluxo completo
 
 ## 👥 Equipe 8
 
-Ruan Victor
-Vinicius Melo
-Pyetro Ribeiro
+- Ruan Victor
+- Vinicius Melo
+- Pyetro Ribeiro
 
 Projeto realizado como atividade acadêmica na faculdade (UEPB)
-
+---
 
 📄 Licença
 
