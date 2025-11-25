@@ -46,6 +46,8 @@ Criar pedido de gás
 
 Login como ADMIN
 
+Adicionar Produto
+
 Visualizar todos os pedidos
 
 Atualizar status
@@ -62,7 +64,7 @@ Gerenciar o fluxo completo
 - Vinicius Melo
 - Pyetro Ribeiro
 
-Projeto realizado como atividade acadêmica na faculdade (UEPB)
+Projeto realizado como atividade acadêmica na Universidade Estadual da Paraíba 
 ---
 
 📄 Licença
