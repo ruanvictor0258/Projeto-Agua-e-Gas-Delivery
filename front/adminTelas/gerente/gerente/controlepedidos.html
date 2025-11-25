@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Painel do Gerente - Pedidos</title>
+  <style>
+    * {
+      margin:0;
+      padding:0; 
+      box-sizing:border-box; 
+      font-family:'Montserrat', sans-serif; 
+      font-size:16px; 
+    }
+    html, body { 
+      height:100%; 
+      display:flex; 
+      flex-direction:column; 
+    }
+    header { 
+      display:flex; 
+      gap:420px; 
+      align-items:center; 
+      background-color:#003366; 
+      color:white; 
+      padding:20px; 
+      height:70px; 
+    }
+    header h2 { font-size:22px; flex:1; }
+
+    a { 
+      color:white; 
+      text-decoration:none; 
+      border-radius:5px; 
+      height:30px; 
+      width:70px; 
+      text-align:center; 
+      display:flex; 
+      align-items:center; 
+      justify-content:center; 
+    }
+    a:hover { background-color: #f28c28; transition: 0.3s; }
+
+    main { flex:1; padding:20px; }
+
+    .container { 
+      border-radius: 30px;
+      border-color: black;
+      padding:20px; 
+      overflow-x:auto; 
+    }
+
+    table { width:100%; border-collapse:collapse; min-width:800px; }
+    th, td { padding:8px 12px; text-align:left; }
+    th { background-color:#f28c28; color:white; }
+
+    button { 
+      margin-top:5px; 
+      padding:8px 12px; 
+      border:none; 
+      background-color:#003366; 
+      color:white; 
+      border-radius:5px; 
+      cursor:pointer;
+      width:110px; 
+    }
+    button:hover { background-color:#f28c28; transition:0.3s; }
+
+    footer { 
+      background-color:#003366; 
+      color:white; 
+      display:flex; 
+      justify-content:space-between; 
+      align-items:center;
+      padding:20px; 
+      margin-top:auto; 
+      width:100%; 
+    }
+
+    @media(max-width:868px){ 
+      header{ height:80px; gap:10px; } 
+      table{ font-size:14px; } 
+    }
+  </style>
+  <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+</head>
+<body>
+  <header>
+    <a href="painelC.html">⇦</a>
+    <h2>Painel de Pedidos - Gerente</h2>
+  </header>
+
+  <main>
+    <div class="container">
+      <div id="mensagemStatus" style="color: red; margin-bottom: 10px;"></div>
+
+      <table id="tabelaPedidos">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Cliente</th>
+            <th>Produto</th>
+            <th>Quantidade</th>
+            <th>Valor Total</th>
+            <th>Endereço</th>
+            <th>Telefone</th>
+            <th>Pagamento</th>
+            <th>Ações</th>
+          </tr>
+        </thead>
+        <tbody id="listaPedidos"></tbody>
+      </table>
+    </div>
+  </main>
+
+  <footer>
+    copyright © 2025 Água & Gás Delivery - Todos os direitos reservados.
+    <p>Política de Privacidade | Termos de Uso</p>
+  </footer>
+
+  <script src="controlePedidos.js"></script>
+</body>
+</html>
+

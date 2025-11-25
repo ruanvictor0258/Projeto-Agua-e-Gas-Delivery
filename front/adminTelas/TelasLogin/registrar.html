@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrar</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+</head>
+<body>
+   <div class="container-login">
+    <div class="img-box">
+        <img src="logo.png" alt="">
+    </div>
+    <div class="content-box">
+        <div class="form-box">
+            <h2>Registrar</h2>
+            <form id="register-form">
+                <div class="input-box">
+                    <span>Usuario</span>
+                    <input type="email" id="register-email" placeholder="@email.com" required>
+                </div>
+                <div class="input-box">
+                    <span>Senha</span>
+                    <input type="password" id="register-password" placeholder="password" required>
+                </div>
+                <div class="input-box">
+                    <span>Confirme a Senha</span>
+                    <input type="password" id="register-confirm-password" placeholder="password" required>
+                </div>
+                <div class="input-box">
+                    <button type="submit" class="botaoEntrar">Registrar</button>
+                </div>
+                
+                <p id="form-message"></p>
+                
+                <div class="input-box">
+                    <p>Já tem uma conta? <a href="login.html" class="link">Realizar Login</a>
+                </div>
+            </form>
+        </div>
+    </div>
+   </div>
+   <script src="registrar.js"></script>
+</body>
+</html>
