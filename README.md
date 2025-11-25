@@ -65,6 +65,7 @@ Gerenciar o fluxo completo
 - Pyetro Ribeiro
 
 Projeto realizado como atividade acadêmica na Universidade Estadual da Paraíba 
+
 ---
 
 📄 Licença
